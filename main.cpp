@@ -19,8 +19,9 @@ int main()
   }
   catch(MyException& e)
   {
-    std::cout << "MyException caught." << std::endl;
-    std::cout << e.what() << std::endl;
+      std::cout << "MyException caught." << std::endl;
+      std::cout << "MyException caught2." << std::endl;
+      std::cout << e.what() << std::endl;
   }
   catch(std::exception& e)
   {
